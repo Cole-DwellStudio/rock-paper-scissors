@@ -7,7 +7,9 @@ function getComputerChoice() {
 
 function getPlayerChoice() {
   let validChoices = ["rock", "paper", "scissors"];
-  let playerChoice = prompt("Please enter rock, paper, or scissors:");
+  let playerChoice = prompt(
+    "Please enter rock, paper, or scissors:"
+  ).toLowerCase();
 
   if (
     playerChoice === "rock" ||
