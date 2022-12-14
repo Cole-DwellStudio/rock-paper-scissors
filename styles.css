@@ -1,0 +1,16 @@
+.grid-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.container {
+  margin: auto;
+  width: 80vw;
+  background: ;
+}
+
+li {
+  list-style: none;
+}

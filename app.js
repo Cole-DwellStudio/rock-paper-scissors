@@ -69,5 +69,3 @@ function playGame(rounds) {
     alert(`Round ${currentResult}. Score: ${playerScore} to ${computerScore}`);
   }
 }
-
-playGame(5);
