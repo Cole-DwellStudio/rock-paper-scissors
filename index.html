@@ -5,31 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <title>Some Title</title>
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
   </head>
   <body>
-    <header>Rock Paper Scissors</header>
-    <section>
-      <div class="container">
-        <ul class="grid-columns">
-          <li>
-            <button>rock</button>
-          </li>
-          <li>
-            <button>paper</button>
-          </li>
-          <li>
-            <button>scissors</button>
-          </li>
-        </ul>
-      </div>
-      <div class="container">
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </div>
-    </section>
+    <div class="container">
+      <header>
+        <h1>Rock Paper Scissors</h1>
+      </header>
+      <section>
+        <div class="container">
+          <ul class="grid-columns">
+            <li>
+              <button id="rock"><img src="rock.png" alt="" /></button>
+            </li>
+            <li>
+              <button id="paper"><img src="paper.png" alt="" /></button>
+            </li>
+            <li>
+              <button id="scissors"><img src="scissors.png" alt="" /></button>
+            </li>
+          </ul>
+          <div class="score">Click a picture to start</div>
+          <div class="playerScore">Your score:</div>
+          <div class="computerScore">Computer score:</div>
+        </div>
+      </section>
+      <section class="container">
+        <div class="grid-columns">
+          <span class="playerPlay"></span>
+          <span>VS.</span>
+          <span class="computerPlay"></span>
+        </div>
+      </section>
+    </div>
   </body>
 </html>

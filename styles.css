@@ -1,16 +1,63 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: gainsboro;
+}
+
+.score {
+  font-weight: 600;
+  font-size: 24px;
+}
+
 .grid-columns {
+  padding: 0;
   display: grid;
+  height: 15vh;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-items: center;
 }
 
+.flex-spacebetween {
+  display: flex;
+  justify-content: space-between;
+}
+
 .container {
   margin: auto;
+  padding-bottom: 20px;
   width: 80vw;
-  background: ;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.playerPlay,
+.computerPlay {
+  font-size: 18px;
+  font-weight: 600;
 }
 
 li {
   list-style: none;
+}
+
+button {
+  padding: 0;
+  background: 0;
+  border: 0;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  filter: drop-shadow(10px 10px 12px rgba(0, 0, 0, 0.25));
+}
+
+img:hover {
+  height: 220px;
+  width: 220px;
 }
